@@ -1,4 +1,8 @@
-# Business Overview
+# Online Advertising Effectiveness Evaluation for Bazaar.com
+# Digital Marketing ROI Assessment using Difference in Difference (DiD)
+
+
+## Business Overview
 Bazaar.com, a prominent online retailer in the United States, has established a significant presence in digital advertising. This includes a strong focus on display advertising as well as search engine advertising, with a particular emphasis on running paid search ads across platforms like Google and Bing. The paid advertisements by Bazaar are categorized primarily into two distinct groups based on the keywords used: branded and non-branded. Branded keywords incorporate the 'Bazaar' brand name, examples of which include 'Bazaar', 'Bazaar shoes', 'Bazaar clothes', and similar phrases. In contrast, non-branded keywords are those like 'shoes', 'dress', and other terms that do not feature the 'Bazaar' brand name. 
 
 Bazaar.com conducted an experiment involving a paid campaign with branded keywords, specifically those containing the word 'Bazaar'. The aim was to estimate the number of customers visiting their website through both sponsored and organic advertisement links. However, during week 10 of the Google campaign, a technical glitch occurred, preventing the capture of customer traffic data through sponsored advertisements. As a result, the team used data from weeks 1 to 9 to calculate the ROI for the sponsored ads.
@@ -22,6 +26,8 @@ The primary objective now is to decipher the true causal effect of these search 
 
 
 To accurately gauge the effect of the absence of sponsored ads (due to the glitch) on the total number of advertisement clicks across various platforms, the team employed a 'difference in difference' approach. This method was chosen to more precisely estimate the actual ROI of the sponsored advertisements
+
+## Why should we use DiD for this problem? 
 
 The Difference in Difference (DiD) technique is a statistical method used to estimate causal relationships. It's particularly useful in observational studies where controlled experiments are not feasible. In the context of this case with Bazaar.com, here's how and why it's used, along with its assumptions:
 How it's used in this case:
